@@ -15,8 +15,8 @@ Example files and configurations for Gazebo simulation of Universal Robots' mani
   <tr>
     <th>Branch</th>
     <td><a href="https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation/tree/humble">humble</a></td>
-    <td><a href="https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation/tree/ros2">ros2</a></td>
-    <td><a href="https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation/tree/ros2">ros2</a></td>
+    <td><a href="https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation/tree/jazzy">jazzy</a></td>
+    <td><a href="https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation/tree/jazzy">jazzy</a></td>
     <td><a href="https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation/tree/ros2">ros2</a></td>
   </tr>
   <tr>
@@ -64,10 +64,13 @@ Skip any of below steps is not applicable.
    mkdir -p $COLCON_WS/src
    ```
 
-   > **NOTE:** Feel free to change `~/workspaces/ur_gz` to whatever absolute path you want.
+   > [!NOTE]
+   > Feel free to change `~/workspaces/ur_gz` to whatever absolute path you want.
 
-   > **NOTE:** Over time you will probably have multiple ROS workspaces, so it makes sense to them all in a subfolder.
-     Also, it is good practice to put the ROS version in the name of the workspace, for different tests you could just add a suffix to the base name `ur_gz`.
+   > [!TIP]
+   > Over time you will probably have multiple ROS workspaces, so it makes sense to them all in a
+   > subfolder. Also, it is good practice to put the ROS version in the name of the workspace, for
+   > different tests you could just add a suffix to the base name `ur_gz`.
 
 1. Download the required repositories and install package dependencies:
    ```
